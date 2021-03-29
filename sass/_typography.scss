@@ -1,0 +1,68 @@
+.heading-primary {
+  font-size: 7rem;
+  color: var(--first-color);
+  @media only screen and (max-width: 719px) {
+    font-size: 6rem;
+  }
+}
+
+.heading-secondary {
+  font-size: 5rem;
+  color: var(--title-color);
+  @media only screen and (max-width: 719px) {
+    font-size: 4rem;
+  }
+}
+
+.heading-tertiery {
+  font-size: 2.5rem;
+  color: var(--title-color);
+
+  &--green {
+    color: var(--first-color);
+  }
+}
+
+.section-label {
+  color: var(--first-color);
+  font-size: 1.6rem;
+
+  @media only screen and (max-width: 923px) {
+    font-size: 2rem !important;
+  }
+}
+
+.paragraph {
+  font-size: 1.6rem;
+  color: var(--text-color);
+
+
+  @media only screen and (max-width: 923px) {
+    font-size: 2rem !important;
+  }
+
+}
+
+.link {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+    color: var(--first-color);
+  }
+
+  &:hover p {
+    color: var(--first-color);
+
+  }
+}
+
+
+.invalid-warning-text {
+  color: red;
+  font-size: 1.6rem;
+  display: none;
+}
+
+.input.invalid ~ .invalid-warning-text {
+  display: block;
+}

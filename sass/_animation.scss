@@ -1,0 +1,14 @@
+// ANIMATIONS
+.fadeY {
+  transition: $animate-delay;
+  opacity: 1;
+  transform:  scale(1);
+}
+
+.fadeX {
+  transition: $animate-delay;
+  opacity: 1;
+  transform: translateX(0) scale(1);
+}
+
+// ANIMATION END

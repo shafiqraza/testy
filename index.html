@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ICONS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone" rel="stylesheet">
+
+  <link rel="shortcut icon" href="./img/plate1.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/main.css">
+  <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+  <title>Testy</title>
+</head>
+<body>
+  <header class="header" id="header">
+    <h4 class="header__logo">Testy</h4>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="#home" class="nav__list-link">
+            Home
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#about" class="nav__list-link">
+            About
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#services" class="nav__list-link">
+            Services
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#menu" class="nav__list-link">
+            Menu
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="#contactus" class="nav__list-link">
+            Contact us
+          </a>
+        </li>
+      </ul>
+      <button class="change-theme" id="change-theme">
+        <span class="material-icons-outlined" id="mode-icon">dark_mode</span>
+      </button>
+    </nav>
+    <button class="open-menu" id="toggle-menu">
+      <span class="material-icons-outlined">
+        menu
+      </span>
+    </button>
+  </header>
+
+  <main id="main">
+    <section class="home" id="home">
+      <div class="home__text">
+        <h1 class="heading-primary">Testy Food</h1>
+        <h3 class="heading-secondary">Try the best food of the week.</h3>
+        <a href="#menu" class="btn-primary mt-5">View menu</a>
+      </div>
+      <figure class="home__fig">
+        <img src="./img/home.png" alt="" class="home__img">
+      </figure>
+    </section>
+    <section class="about" id="about">
+      <figure class="about__fig">
+        <img src="./img/about.jpg" alt="" class="about__img">
+      </figure>
+      <div class="about__text">
+        <h4 class="section-label">
+          About us
+        </h4>
+        <h3 class="heading-secondary">
+          We cook the best testy food
+        </h3>
+        <p class="paragraph">
+          We cook the best food in the entire city, with excellent customer service, the best meals and at the best price, visit us.
+        </p>
+        <button class="btn-primary mt-5">Explore history</button>
+      </div>
+    </section>
+    <section class="services" id="services">
+      <h4 class="section-label">Offering</h4>
+      <h3 class="heading-secondary">Our amazing services</h3>
+      <div class="row mt-5">
+        <div class="col-4 services__card">
+          <span class="material-icons-outlined services__icon">
+            brunch_dining
+          </span>
+          <h4 class="heading-tertiery">
+            Excellent food
+          </h4>
+          <p class="paragraph">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+        </div>
+        <div class="col-4 services__card">
+          <span class="material-icons-outlined services__icon">
+            lunch_dining
+          </span>
+          <h4 class="heading-tertiery">
+            Fast food
+          </h4>
+          <p class="paragraph">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+        </div>
+        <div class="col-4 services__card">
+          <span class="material-icons-outlined services__icon">
+            local_shipping
+          </span>
+          <h4 class="heading-tertiery">
+            Devilery
+          </h4>
+          <p class="paragraph">We offer our clients excellent quality services for many years, with the best and delicious food in the city.</p>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="menu">
+      <h4 class="section-label text-center">Menu</h4>
+      <h3 class="heading-secondary text-center">Menu of the week</h3>
+      <div class="row justify-center mt-5">
+        <div class="col-3 moveY">
+          <div class="menu-item card">
+            <img src="./img/plate1.png" alt="" class="menu-item__img">
+            <h6 class="menu-item__title">Barbecue salad</h6>
+            <p class="menu-item__subtitle">Delicious dish</p>
+            <p class="menu-item__price">Rs.449</p>
+            <button class="menu-item__btn" id="addToCart">
+              <span class="material-icons-outlined">
+                shopping_cart
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="col-3 moveY">
+          <div class="menu-item card">
+            <img src="./img/plate2.png" alt="" class="menu-item__img">
+            <h6 class="menu-item__title">Salad with fish</h6>
+            <p class="menu-item__subtitle">Delicious dish</p>
+            <p class="menu-item__price">Rs.899</p>
+            <button class="menu-item__btn" id="addToCart">
+              <span class="material-icons-outlined">
+                shopping_cart
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="col-3 moveY">
+          <div class="menu-item card">
+            <img src="./img/plate3.png" alt="" class="menu-item__img">
+            <h6 class="menu-item__title">Spinach salad</h6>
+            <p class="menu-item__subtitle">Delicious dish</p>
+            <p class="menu-item__price">Rs.299</p>
+            <button class="menu-item__btn" id="addToCart">
+              <span class="material-icons-outlined">
+                shopping_cart
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="app" id="app">
+      <div class="row">
+        <div class="col-6 app__mobile-img">
+          <img src="./img/movil-app.png" alt="Mobile app" class="app__img">
+        </div>
+        <div class="col-6 app__details">
+          <h4 class="section-label">App</h4>
+          <h3 class="heading-secondary">App is available</h3>
+          <p class="paragraph">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
+          <div class="app__links">
+            <a href="#" class="app__link">
+              <img src="./img/app1.png" alt="available in app store">
+            </a>
+            <a href="#" class="app__link">
+              <img src="./img/app2.png" alt="available in app store">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contactus">
+      <div class="row justify-center moveY">
+        <div class="col-8">
+          <h4 class="section-label">Let's talk</h4>
+          <h3 class="heading-secondary">Contact us</h3>
+          <p class="paragraph">f you want to reserve a table in our restaurant, contact us and we will attend you quickly, with our 24/7 chat service.</p>
+          <button class="btn-primary mt-2" id="show-contact-form">Contact us now</button>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer" id="footer">
+    <div class="row justify-center">
+      <div class="col-3 movedown">
+        <h6 class="heading-tertiery heading-tertiery--green">Testy</h6>
+        <p class="paragraph">Restaurant</p>
+      </div>
+      <div class="col-3 movedown">
+        <h6 class="heading-tertiery">Services</h6>
+        <a href="#" class="link">
+          <p class="paragraph">Delivery</p>
+        </a>
+        <a href="#" class="link">
+          <p class="paragraph">Pricing</p>
+        </a>
+        <a href="#" class="link">
+          <p class="paragraph">Fast Food</p>
+        </a>
+        <a href="#" class="link">
+          <p class="paragraph">Reserve your spot</p>
+        </a>
+      </div>
+      <div class="col-3 movedown">
+        <h6 class="heading-tertiery">Information</h6>
+        <a href="#" class="link">
+          <p class="paragraph">Event</p>
+        </a>
+        <a href="#" class="link">
+          <p class="paragraph">Contact us</p>
+        </a>
+        <a href="#" class="link">
+          <p class="paragraph">Privacy Policy</p>
+        </a>
+        <a href="#" class="link">
+          <p class="paragraph">Terms of services</p>
+        </a>
+      </div>
+      <div class="col-3 movedown">
+        <h6 class="heading-tertiery">Address</h6>
+        <p class="paragraph">Lima - Peru Jr Union no.999</p>
+        <p class="paragraph">999 - 888 - 777</p>
+        <p class="paragraph">tastyfood@email.com</p>
+      </div>
+    </div>
+    <p class="text-center paragraph mt-5">© 2021 Testy. All right reserved</p>
+  </footer>
+
+  <div class="modal" id="contact-form-modal">
+    <div class="modal__bg" id="form-parent">
+      <div class="modal__body">
+        <h1 class="heading-secondary">Contact us</h1>
+        <form class="contact-form" id="contact-form">
+          <div class="input__group">
+            <label for="input" class="input__label">Name:</label>
+            <input type="text" class="input" placeholder="Enter your name" id="name">
+            <small class="invalid-warning-text">Please provide a valid name!</small>
+          </div>
+          <div class="input__group">
+            <label for="input" class="input__label">Email:</label>
+            <input type="text" class="input" placeholder="Enter your email" id="email">
+            <small class="invalid-warning-text">Please provide a valid email.</small>
+          </div>
+          <div class="input__group">
+            <label for="input" class="input__label">Message:</label>
+            <textarea class="input" placeholder="Enter your Message" rows="3" id="message"></textarea>
+            <small class="invalid-warning-text">Please provide a valid message.</small>
+          </div>
+          <div class="input__group">
+            <button class="btn-primary">Submit</button>
+          </div>
+        </form>
+        <button class="close-btn close-form-modal" id="close-contact-form">
+          <span class="material-icons-outlined">close</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="notification" id="notification">
+    <p class="paragraph">Thank you! Your form has been submitted.</p>
+    <button class="close-btn hide-notification" id="hide-notification">
+      <span class="material-icons-outlined">close</span>
+    </button>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
